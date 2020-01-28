@@ -25,6 +25,7 @@ public class Studentmain {
             s.calculateResult();
             s.printData();
         }
+        Airthmetic airthmetic=new Airthmetic();
     }
     }
 

@@ -1,59 +1,45 @@
 package com.lambton;
 
-import java.util.Scanner;
-
 public class Airthmetic {
 
-   int a,b,c;
-   Scanner sc=new Scanner(System.in);
-    public static void sum1(int a,int b){
-        int sum=0;
-        a =20;
-        b=30;
-        sum=a+b;
-    }
-    public static void sum2(int a,int b,float c) {
-        float sum = 0;
-        a=20;
-        b=30;
-        c= (float) 20.5;
-        sum=a+b+c;
-    }
-    public static void sum3(float a,float b){
-        float sum=0;
-        a=20.5f;
-        b=30.5f;
-        sum=a+b;
-    }
-    public static void sum4(String a,String b) {
-        String sum= String.valueOf(0);
-        a="komal";
-        b="sharma";
-        sum=a+b;
-    }
-    public static void sum5(String a,int b) {
-        int sum = 0;
-        a="komal";
-        b=30;
-        sum= Integer.parseInt(a+b);
-    }
-    public static void sum6(int a,int b,int c) {
-        int sum=0;
-        a=20;
-        b=30;
-        c=40;
-        sum=a+b+c;
+  int add(int a, int b){
+      return a+b;
+  }
+   float add(float a,float b){
+      return a+b;
+   }
+   String add(String a,String b){
+      return a+b;
+   }
+        String    add(String a, int b){
+      return a+b;
+        }
+            String add(int a,String b){
+      return a+b;
+            }
+            int add(int a,int b,int c){
+      return a+b+c;
+            }
+           float add(int a,int b,float c){
+      return a+b+c;
 
-    }
-    public static void sum7(int a,int b,float c) {
-        int sum=0;
-        a=20;
-        b=30;
-        c=40;
-        sum= (int) (a+b+c);
+           }
+           float add(float a,int b){
+      return a+b;
 
-    }
-
+           }
+           float add(float a,int b,int c){
+      return a+b+c;
+           }
+           String add(String a,int b,float c){
+      return a+b+c;
+           }
+           double add(int a,double b){
+      return a+b;
+           }
+           float add(int a,float b){
+      return a+b;
+           }
 
 
 
